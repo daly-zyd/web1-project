@@ -1,0 +1,530 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.entete {
+    margin-bottom: 0;
+}
+
+.barre-nav {
+    padding: 15px 0;
+}
+
+.titre-site {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.lien-menu {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.contenu-principal {
+    min-height: calc(100vh - 200px);
+}
+
+.section-hero {
+    background-color: #667eea;
+    color: white;
+    padding: 80px 0;
+}
+
+.section-hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.section-hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-hero .lead {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.section-info {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.carte-info {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.carte-info i {
+    font-size: 40px;
+    color: #667eea;
+    margin-bottom: 15px;
+}
+
+.carte-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-social {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.section-social h3 {
+    margin-bottom: 25px;
+}
+
+.liens-sociaux {
+    display: flex;
+    justify-content: center;
+}
+
+.liens-sociaux a {
+    margin: 0 10px;
+}
+
+.icone-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #667eea;
+    color: white;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.icone-social:hover {
+    background-color: #764ba2;
+    color: white;
+}
+
+.photo-profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.titre-page {
+    background-color: #667eea;
+    color: white;
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+
+.titre-page h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.section-contenu {
+    padding: 40px 0;
+}
+
+.bloc-education {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.badge-annee {
+    background-color: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bloc-education h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bloc-education h4 {
+    color: #667eea;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.logo-ecole {
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.categorie-competence {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.categorie-competence h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.liste-competences {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.liste-competences .tag-competence {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tag-competence {
+    background-color: #667eea;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.bloc-experience {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.badge-date {
+    background-color: #764ba2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bloc-experience h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bloc-experience h4 {
+    color: #667eea;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.tags-techno {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-techno {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.bloc-evenement {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.image-evenement {
+    text-align: center;
+    color: #667eea;
+    padding: 20px;
+}
+
+.bloc-evenement h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.date-evenement {
+    color: #667eea;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.photo-evenement {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.image-carousel {
+    height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.carousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.groupe-matiere {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.groupe-matiere h3 {
+    color: #667eea;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.liste-matieres {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+.liste-matieres li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.bloc-projet {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.bloc-projet h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bloc-projet strong {
+    color: #667eea;
+}
+
+.bloc-passion {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.icone-passion {
+    text-align: center;
+    color: #667eea;
+    padding: 20px;
+}
+
+.bloc-passion h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.carte-qualite {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.carte-qualite i {
+    font-size: 40px;
+    color: #667eea;
+    margin-bottom: 15px;
+}
+
+.carte-qualite h4 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bloc-question {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.bloc-question h3 {
+    color: #667eea;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.bloc-question p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.info-contact {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.item-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+
+.item-contact i {
+    font-size: 30px;
+    color: #667eea;
+    min-width: 40px;
+}
+
+.item-contact h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.item-contact p {
+    margin: 0;
+    color: #666;
+}
+
+.item-contact a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.item-contact a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contenu-temoignage {
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contenu-temoignage h2 {
+    color: #667eea;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contenu-temoignage h3 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contenu-temoignage p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.section-note {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #f0f0f0;
+    text-align: center;
+}
+
+.section-note h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.etoiles {
+    font-size: 30px;
+    color: #ffc107;
+}
+
+.etoiles span {
+    margin-left: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.pied-page {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.pied-page p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .section-hero h1 {
+        font-size: 32px;
+    }
+    
+    .section-hero h2 {
+        font-size: 24px;
+    }
+    
+    .badge-annee, .badge-date {
+        margin-bottom: 15px;
+    }
+}
