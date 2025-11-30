@@ -15,18 +15,18 @@ function validerQuiz() {
     };
 
     var listeQuestions = {
-        q1: 'Que signifie HTML? - Réponse: Hyper Text Markup Language',
-        q2: 'Quel langage est utilisé pour styliser une page web? - Réponse: CSS',
-        q3: 'Quelle balise HTML est utilisée pour créer un lien hypertexte? - Réponse: &lt;a&gt;',
-        q4: 'Quel framework CSS utilise des classes prédéfinies? - Réponse: Bootstrap',
-        q5: 'Quelle méthode JavaScript est utilisée pour sélectionner un élément par son ID? - Réponse: getElementById()',
-        q6: 'Que signifie CSS? - Réponse: Cascading Style Sheets',
-        q7: 'Quelle balise HTML5 est utilisée pour définir un en-tête de page? - Réponse: &lt;header&gt;',
-        q8: 'Quel opérateur JavaScript est utilisé pour comparer une valeur et un type? - Réponse: ===',
-        q9: 'Quelle propriété CSS est utilisée pour changer la couleur du texte? - Réponse: color',
-        q10: 'Quelle balise HTML est utilisée pour insérer une image? - Réponse: &lt;img&gt;',
-        q11: 'Quel est le rôle principal de JavaScript dans une page web? - Réponse: Ajouter de l\'interactivité',
-        q12: 'Quelle balise HTML5 est utilisée pour un contenu indépendant? - Réponse: &lt;article&gt;'
+        q1: 'Quelle est la capitale de la France? - Réponse: Paris',
+        q2: 'Quelle est la capitale de la Tunisie? - Réponse: Tunis',
+        q3: 'Quelle est la capitale du Japon? - Réponse: Tokyo',
+        q4: 'Quelle est la capitale de l\'Allemagne? - Réponse: Berlin',
+        q5: 'Quelle est la capitale de l\'Égypte? - Réponse: Le Caire',
+        q6: 'Quelle est la capitale de l\'Espagne? - Réponse: Madrid',
+        q7: 'Quelle est la capitale de l\'Italie? - Réponse: Rome',
+        q8: 'Quelle est la capitale du Canada? - Réponse: Ottawa',
+        q9: 'Quelle est la capitale du Brésil? - Réponse: Brasilia',
+        q10: 'Quelle est la capitale de l\'Australie? - Réponse: Canberra',
+        q11: 'Quelle est la capitale du Maroc? - Réponse: Rabat',
+        q12: 'Quelle est la capitale de la Chine? - Réponse: Pékin'
     };
 
     for (var q in reponsesCorrectes) {
